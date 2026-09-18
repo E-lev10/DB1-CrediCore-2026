@@ -1,5 +1,5 @@
--- ======================================================================
--- PREPARACIÓN DEL ENTORNO (Evita errores si el script se corre 2 veces)
+--- ======================================================================
+-- PREPARACIÓN DEL ENTORNO (Evita errores si el script se corre 2 veces.)
 -- ======================================================================
 USE master;
 GO
