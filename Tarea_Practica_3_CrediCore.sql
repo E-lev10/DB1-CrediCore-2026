@@ -95,17 +95,17 @@ GO
 -- ======================================================================
 
 /*
--- Prueba 1: Regla CHECK (Vehículo menor a 2011) - DESCOMENTAR EN VIDEO
+-- Prueba 1: Regla CHECK (Vehículo menor a 2011)
 INSERT INTO Garantias.Vehiculos (Marca, Modelo, Año, Color, NumeroTitulo, Placa, Chasis)
 VALUES ('Nissan', 'Sentra', 2005, 'Blanco', 'TIT-111222', 'P-999ZZZ', 'CH-99999999');
 GO
 
--- Prueba 2: Regla CHECK (Monto menor a Q1,000) - DESCOMENTAR EN VIDEO
+-- Prueba 2: Regla CHECK (Monto menor a Q1,000)
 INSERT INTO Operaciones.Creditos (IdCliente, IdVehiculo, Monto, TasaInteres)
 VALUES (1, 1, 500.00, 10.0);
 GO
 
--- Prueba 3: Regla UNIQUE (DPI duplicado) - DESCOMENTAR EN VIDEO
+-- Prueba 3: Regla UNIQUE (DPI duplicado)
 INSERT INTO Operaciones.Clientes (Nombres, Apellidos, DPI, Telefono, Correo)
 VALUES ('Pedro', 'Martinez', '1234567890101', '2222-3333', 'pedro@email.com');
 GO
